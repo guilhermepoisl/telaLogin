@@ -1,0 +1,42 @@
+.container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 150px;
+
+}
+.telalogar{
+  width: 400px;
+  height: 400px;
+  border: 1px solid rgb(2, 2, 126);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(2, 2, 126);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+}
+
+.telalogar .logotela{
+  width: 200px;
+  padding-top: 50px;
+}
+
+.dadoslogin{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.dadoslogin input{
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.btnlogar{
+  width: 225px;
+  padding: 10px;
+  margin: 10px;
+}

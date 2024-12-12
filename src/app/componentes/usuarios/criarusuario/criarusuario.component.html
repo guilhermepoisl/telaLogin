@@ -1,0 +1,31 @@
+<section class="container">
+  <header class="header">
+    <h2>CADASTRO DE USUÁRIO</h2>
+  </header>
+  <form>
+    <div class="linha">
+      <label for="usuario">Usuário</label>
+      <input type="textarea" class="input" id="usuario" name="usuario" placeholder="Nome de usuário">
+      <label for="senha">Senha</label>
+      <input type="password" class="input" id="senha" name="senha" placeholder="Digite sua senha">
+    </div>
+    <div class="linha">
+      <label for="nome">Nome</label>
+      <input type="textarea" class="input1" name="nome" placeholder="Nome completo">
+    </div>
+    <div class="linha">
+      <label for="cpf">CPF</label>
+      <input type="text" name="cpf" class="input" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})" placeholder="999.999.999-99" maxlength="11">
+      <label for="telefone">Telefone</label>
+      <input type="tel" class="input" name="telefone" placeholder="(48) + 99999-9999" maxlength="11">
+    </div>
+    <div class="linha">
+      <label for="endereco">Endereço</label>
+      <input type="textarea" class="input1" name="endereco" placeholder="Endereço">
+    </div>
+    <div class="acoes">
+      <button (click)="criaUsuario()" class="salvar">Salvar</button>
+      <button (click)="cancelaOperacao()" class="cancelar">Cancelar</button>
+    </div>
+  </form>
+</section>

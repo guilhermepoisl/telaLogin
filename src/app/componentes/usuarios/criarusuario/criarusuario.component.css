@@ -1,0 +1,76 @@
+.container{
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  display: flex;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  width: 600px;
+  background-color: rgba(150,150,150,0.9);
+}
+header h2{
+  text-align: center;
+}
+
+.linha {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+label{
+  width: 70px;
+  font-size: 18px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+.input{
+  display: flex;
+  position: relative;
+  align-items:flex-start;
+  border-radius: 5px;
+  margin: 0 15px;
+  width: 175px;
+  padding: 10px;
+  font-size: 16px;
+}
+.input1{
+  width: 480px;
+  display: flex;
+  position: relative;
+  align-items:flex-start;
+  border-radius: 5px;
+  margin: 0 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.acoes {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.acoes button{
+  width: 200px;
+  margin: 20px 10px 10px 10px;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.cancelar{
+  background-color: rgba(255, 29, 29, 0.7);
+}
+.salvar{
+  background-color: rgba(0,255,0,0.7);
+}
+.cancelar:hover{
+  background-color: rgba(255,0,0,1);
+}
+.salvar:hover{
+  background-color: rgba(0,255,0,1);
+}
+
